@@ -38,7 +38,8 @@ export class FiltersComponent implements OnInit {
     spice_level: '',
     difficulty_level: '',
     min_calories: 320,
-    max_calories: 1590
+    max_calories: 1590,
+    value: undefined
   };
 
   ngOnInit() {
@@ -58,7 +59,7 @@ export class FiltersComponent implements OnInit {
     this.filtersChanged.emit(this.filters);
   }
 
-  onSliderChange(value: number) {  // ✅ Fix: Accepts number directly
+  onSliderChange(value: number) {  
     this.filters.min_calories = Math.min(value, this.filters.max_calories);
     this.filters.max_calories = Math.max(value, this.filters.min_calories);
     this.updateFilters();
