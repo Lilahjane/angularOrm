@@ -1,0 +1,36 @@
+<mat-form-field>
+  <mat-label>Recipe Name</mat-label>
+  <input type="text" placeholder="Pick one" matInput [formControl]="myControl" [matAutocomplete]="auto">
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (click)="updateFilters()">
+      {{ option }}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Spice Level</mat-label>
+  <mat-select [(ngModel)]="filters.spice_level" (selectionChange)="updateFilters()">
+    <mat-option value="">Any</mat-option>
+    <mat-option value="Not spicy">Not spicy</mat-option>
+    <mat-option value="Mild">Mild</mat-option>
+    <mat-option value="Medium">Medium</mat-option>
+    <mat-option value="Spicy">Spicy</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Difficulty Level</mat-label>
+  <mat-select [(ngModel)]="filters.difficulty_level" (selectionChange)="updateFilters()">
+    <mat-option value="">Any</mat-option>
+    <mat-option value="Easy">Easy</mat-option>
+    <mat-option value="Medium">Medium</mat-option>
+    <mat-option value="Hard">Hard</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-label>Calories</mat-label>
+<mat-slider min="320" max="1590" step="5" showTickMarks discrete (valueChange)="onSliderChange($event.value)">
+  <input matSliderStartThumb>
+  <input matSliderEndThumb>
+</mat-slider>

@@ -1,0 +1,36 @@
+
+
+
+.example-spacer {
+    flex:auto;
+  }
+
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamic column sizes */
+    gap: 10px;
+    border: 1px solid #e5cb08;
+  }
+  
+  .card {
+    width: 100%;
+    height: auto; /* Remove fixed height to allow for dynamic card sizing */
+    border: 1px solid #e5cb08;
+    padding: 10px;
+  
+    .mat-card-header {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    .mat-card-content {
+      font-size: 1em;
+    }
+  
+    .mat-card-actions {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
