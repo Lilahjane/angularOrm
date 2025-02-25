@@ -1,0 +1,24 @@
+ERROR INVALID_CHARACTER_ERR: INVALID_CHARACTER_ERR (5): the string contains invalid characters
+    at Object.exports.InvalidCharacterError (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-VOWVQO6O.js:473:13)
+    at HTMLAnchorElement.setAttribute (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-VOWVQO6O.js:3466:46)
+    at EmulatedEncapsulationDomRenderer2.setAttribute (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-25ESESHY.js:736:10)
+    at BaseAnimationRenderer.setAttribute (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-OQBJZAUP.js:3895:19)
+    at setUpAttributes (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:6515:18)
+    at setupStaticAttributes (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:10793:5)
+    at ɵɵelementStart (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:20355:3)
+    at i0 (C:\Users\admin\Desktop\angular\angularOrm\src\nav\nav.component.html:7:5)
+    at executeTemplate (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:10887:5)
+    at renderView (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:11301:7) {
+  code: 5
+}
+INVALID_CHARACTER_ERR: INVALID_CHARACTER_ERR (5): the string contains invalid characters
+    at Object.exports.InvalidCharacterError (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-VOWVQO6O.js:473:13)
+    at HTMLAnchorElement.setAttribute (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-VOWVQO6O.js:3466:46)
+    at EmulatedEncapsulationDomRenderer2.setAttribute (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-25ESESHY.js:736:10)
+    at BaseAnimationRenderer.setAttribute (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-OQBJZAUP.js:3895:19)
+    at setUpAttributes (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:6515:18)
+    at setupStaticAttributes (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:10793:5)
+    at ɵɵelementStart (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:20355:3)
+    at i0 (C:\Users\admin\Desktop\angular\angularOrm\src\nav\nav.component.html:7:5)
+    at executeTemplate (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:10887:5)
+    at renderView (C:\Users\admin\Desktop\angular\angularOrm\.angular\cache\19.1.7\angularOrm\vite\deps_ssr\chunk-FW5PJ4CK.js:11301:7)
