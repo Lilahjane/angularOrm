@@ -30,7 +30,7 @@
 </mat-form-field>
 
 <mat-label>Calories</mat-label>
-<mat-slider min="320" max="1590" step="5" showTickMarks discrete (valueChange)="onSliderChange($event)">
-  <input matSliderStartThumb>
-  <input matSliderEndThumb>
+<mat-slider min="320" max="1590" step="5" showTickMarks discrete >
+  <input matSliderStartThumb (valueChange)="min($event)">
+  <input matSliderEndThumb (valueChange)="max($event)">
 </mat-slider>

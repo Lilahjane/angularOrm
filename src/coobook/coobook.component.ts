@@ -4,7 +4,7 @@ import { MatCardModule } from '@angular/material/card';
 import { CommonModule } from '@angular/common';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { RecipeService } from '../recipe.service';
-import { Recipe } from '../../../please_work/IRecpies';
+import { Recipe } from '../../please_work/IRecpies';
 import { FiltersComponent } from '../filters/filters.component';
 
 

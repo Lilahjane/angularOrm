@@ -59,8 +59,12 @@ export class FiltersComponent implements OnInit {
     this.filtersChanged.emit(this.filters);
   }
 
-  onSliderChange(value: number) {  
+  min(value: number) {  
     this.filters.min_calories = Math.min(value, this.filters.max_calories);
+    
+    this.updateFilters();
+  }
+  max(value: number) {
     this.filters.max_calories = Math.max(value, this.filters.min_calories);
     this.updateFilters();
   }
