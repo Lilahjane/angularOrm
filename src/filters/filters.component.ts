@@ -39,7 +39,7 @@ export class FiltersComponent implements OnInit {
     difficulty_level: '',
     min_calories: 320,
     max_calories: 1590,
-    value: undefined
+  
   };
 
   ngOnInit() {
